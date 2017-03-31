@@ -1,0 +1,28 @@
+{
+  "name": "forgetful-elephant",
+  "version": "1.0.0",
+  "description": "An elephant sometimes forgets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js --watch .",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktrain/forgetful-elephant.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktrain/forgetful-elephant/issues"
+  },
+  "homepage": "https://github.com/ktrain/forgetful-elephant#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
