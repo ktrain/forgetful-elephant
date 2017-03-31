@@ -16,11 +16,11 @@ router.all('/', (req, res) => {
 		resources: {
 			Events: {
 				collection: {
-					url: `http://${req.headers.host}/events`,
+					url: `https://${req.headers.host}/events`,
 					methods: ['GET', 'POST'],
 				},
 				singular: {
-					url: `http://${req.headers.host}/events/:id`,
+					url: `https://${req.headers.host}/events/:id`,
 					methods: ['GET', 'DELETE'],
 				},
 			},
