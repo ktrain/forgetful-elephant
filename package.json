@@ -20,7 +20,8 @@
   "homepage": "https://github.com/ktrain/forgetful-elephant#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
